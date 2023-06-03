@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import EmailAdd from './Components/EmailAdd';
+import FreshOrganic from './Components/FreshOrganic';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <EmailAdd></EmailAdd>
       </section>
       <section className= "section">
-        <EmailAdd></EmailAdd>
+        <FreshOrganic></FreshOrganic>
       </section>
     </div>
   );
